@@ -1,0 +1,15 @@
+{
+  "name": "p2pvideo",
+  "version": "1.0.0",
+  "description": "\"simple peer to peer video streaming\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo index.js:bundle.js"
+  },
+  "author": "Muthukumar",
+  "license": "ISC",
+  "dependencies": {
+    "simple-peer": "^8.1.1"  },
+  "devDependencies": {}
+}
